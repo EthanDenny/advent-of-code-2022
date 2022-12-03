@@ -50,7 +50,7 @@ int main(int argc, char** argv) {
 
     file.close();
 
-    cout << "The sum of the common items' priorites is " << prioritySum << "." << endl;
+    cout << "The sum of the common items' priorities is " << prioritySum << "." << endl;
 
     return 0;
 }
