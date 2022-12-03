@@ -19,7 +19,7 @@ char findCommonItem(string rucksack) {
     string leftCompartment = rucksack.substr(0, half);
     string rightCompartment = rucksack.substr(half, half);
 
-    bool hasItem[52] = {};
+    bool hasItem[53] = {}; // 0 = ignored, 1-26 = a-z, 27-52 = A-Z
 
     for (int i = 0; i < half; i++) {
         char item = leftCompartment[i];
